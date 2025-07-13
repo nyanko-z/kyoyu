@@ -1,0 +1,38 @@
+<!DOCTYPE html><!--適切なページを表示させるためのもの-->
+<html lang="ja"><!--日本語に指定-->
+<head>
+    <meta charset="UTF-8"><!--このコードによって多言語をサポート-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--スマホの幅に合わせるように指定、倍率を1.0に指定。-->
+    <title>表示実験</title>
+    <style>
+        .moved-image { margin-left: 33px; }
+        .moved-image2 { margin-left: 8px; }
+        .left1{margin-left: 80px;}
+    </style>
+</head>
+<body>
+    <script>
+    alert("音楽やボタンが表示されているかのテストをお願いします。")
+    </script>
+    
+    <img src="InShot_20250707_211546959.png" style="max-width: 100%; height: auto;" with="350" height="200">
+    
+    <h1 style="font-size: 24px;">こちらに画像は表示されていますか？</h1>
+    <img src="無題310_20250516214119~2.png" style="max-width: 100%; height: auto;">
+    
+    <h1 style="font-size: 24px;">こちらに動画は表示されていますか？</h1>
+    <video controls width="350" height="200" class="moved-image2">
+        <source src="InShot_20250702_205939711.mp4" type="video/mp4">
+        お使いのブラウザは動画タグに対応していません。
+    </video>
+    <h2>音楽は再生できますか？</h2>
+    <audio controls class="moved-image">
+        <source src="【フリーBGM】痛快な逆転劇の瞬間とかに流れて欲しい曲【かっこいい・アップテンポ・おしゃれ】.m4a" type="audio/mp4">
+    </audio>
+    <h3>表示されているかメールで教えてください！</h3>
+    <p>
+        <a href="https://www.google.co.jp" target="_blank">こちらをクリックして戻る</a>
+    </p>
+    <button class="left1" style="width: 200px; height: 100px;" onclick="alert('hallo!');">hallo word!</button>
+</body>
+</html>
